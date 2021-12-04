@@ -87,6 +87,9 @@
             },
             "development": {
               "browserTarget": "portafolio:build:development"
+            },
+            "local": {
+              "browserTarget": "portafolio:build:local"
             }
           },
           "defaultConfiguration": "development"
