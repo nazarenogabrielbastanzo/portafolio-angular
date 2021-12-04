@@ -1,5 +1,7 @@
 <app-header></app-header>
 <section class="ae-container-fluid rk-main">
-    <router-outlet></router-outlet>
+  <div [@routeAnimations]="prepareRoute(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </div>
 </section>
 <app-footer></app-footer>
