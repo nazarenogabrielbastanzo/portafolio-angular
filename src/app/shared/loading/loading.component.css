@@ -1,0 +1,7 @@
+svg path,
+svg rect{
+  fill: black;
+}
+.custom-class-1 {
+  text-align: center;
+}

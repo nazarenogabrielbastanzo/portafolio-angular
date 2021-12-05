@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { fadeInAnimation } from './animations/animations';
 import { InfoPaginaService } from './services/info-pagina.service';
+import { ProductosService } from './services/productos.service';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { InfoPaginaService } from './services/info-pagina.service';
 })
 export class AppComponent {
   constructor(
-    public infoPaginaService: InfoPaginaService
+    public infoPaginaService: InfoPaginaService,
+    public productosSvc: ProductosService
   ) {}
 
   prepareRoute(outlet: RouterOutlet) {
