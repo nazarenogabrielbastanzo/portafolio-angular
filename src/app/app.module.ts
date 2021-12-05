@@ -11,6 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoadingComponent } from './shared/loading/loading.component';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { LoadingComponent } from './shared/loading/loading.component';
     AboutComponent,
     ItemComponent,
     LoadingComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
