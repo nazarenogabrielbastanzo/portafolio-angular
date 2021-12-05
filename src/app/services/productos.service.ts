@@ -61,7 +61,6 @@ export class ProductosService {
   }
 
   private filtrarProductos(termino: string) {
-    console.log(this.productos);
 
     this.productosFiltrado = [];
 
@@ -73,7 +72,6 @@ export class ProductosService {
 
       if (prod.categoria.indexOf(termino) >= 0 || tituloLower.indexOf(termino) >= 0) {
         this.productosFiltrado.push(prod);
-        console.log(this.productosFiltrado);
 
       }
     });
